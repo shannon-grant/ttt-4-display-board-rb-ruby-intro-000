@@ -7,12 +7,12 @@ def display_board(board)
   puts "   |   |   "
   puts "-----------"
   puts "   |   |   "
-  board = [" "," "," "," "," "," "," "," "," "]
+  board = [" "," "," "," "," "," "," "," "," "," "," "]
 end
 
 
 def display_board(board)
-  puts "#{board[0]}, #{board[1]}, #{board[2]}, #{board[3]}, #{board[4]}, #{board[5]}, #{board[6]}, #{board[7]}, #{board[8]}, #{board[9]}"
+  puts "#{board[0]}, #{board[1]}, #{board[2]}, #{board[3]}, #{board[4]}, #{board[5]}, #{board[6]}, #{board[7]}, #{board[8]}, #{board[9]} #{board [10]}, #{board[11]}"
 end
 
 print_display_board(board)
